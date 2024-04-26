@@ -1,13 +1,9 @@
-import Animals.Animal;
-import Animals.Dog;
-import Animals.Mammal;
+import Animals.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        Animal animal = new Dog();
-        
-
+        Animal[] animals = {new Dog(), new Fish(), new Bird(), new BlowFish()};
 
 
 

@@ -2,12 +2,13 @@ package Animals;
 
 import lombok.*;
 
+
 @NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
-@AllArgsConstructor
 @ToString
-@RequiredArgsConstructor
+
 public class BlowFish extends Fish {
 
     private String color;
@@ -17,8 +18,4 @@ public class BlowFish extends Fish {
         System.out.println("BlowFish is eating");
     }
 
-    @Override
-    public void getVoices() {
-        System.out.println("---------");
-    }
 }

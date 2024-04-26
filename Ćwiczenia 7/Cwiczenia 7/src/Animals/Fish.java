@@ -7,7 +7,6 @@ import lombok.*;
 @Setter
 @AllArgsConstructor
 @ToString
-@RequiredArgsConstructor
 public class Fish extends Animal {
 
     private String fishType;
@@ -19,6 +18,6 @@ public class Fish extends Animal {
 
     @Override
     public void getVoices() {
-        System.out.println("-------");
+        System.out.println("Bro i am a fish");
     }
 }

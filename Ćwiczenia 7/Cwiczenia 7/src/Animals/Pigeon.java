@@ -7,7 +7,7 @@ import lombok.*;
 @Setter
 @AllArgsConstructor
 @ToString
-@RequiredArgsConstructor
+
 public class Pigeon extends Bird{
 
     private String color;

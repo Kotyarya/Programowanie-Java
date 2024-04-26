@@ -7,7 +7,7 @@ import lombok.*;
 @Setter
 @AllArgsConstructor
 @ToString
-@RequiredArgsConstructor
+
 public class Dog extends Mammal {
 
     private String dogType;
