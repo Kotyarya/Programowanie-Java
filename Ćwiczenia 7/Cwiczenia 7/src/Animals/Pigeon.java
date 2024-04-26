@@ -21,4 +21,9 @@ public class Pigeon extends Bird{
     public void getVoices() {
         System.out.println("Pigeon voice");
     }
+
+    @Override
+    public void move() {
+        System.out.println("Pigeon swim");
+    }
 }

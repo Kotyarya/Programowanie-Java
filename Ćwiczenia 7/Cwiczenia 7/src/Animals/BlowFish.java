@@ -18,4 +18,8 @@ public class BlowFish extends Fish {
         System.out.println("BlowFish is eating");
     }
 
+    @Override
+    public void move() {
+        System.out.println("BLowFish fly");
+    }
 }

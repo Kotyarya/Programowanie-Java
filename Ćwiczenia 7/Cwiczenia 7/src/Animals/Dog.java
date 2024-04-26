@@ -21,4 +21,9 @@ public class Dog extends Mammal {
     public void getVoices() {
         System.out.println("Dog voice");
     }
+
+    @Override
+    public void move() {
+        System.out.println("Dog run");
+    }
 }
